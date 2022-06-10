@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(235, 233, 213);
+    color: rgb(0, 0, 0);
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 50px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+h1 {
+    margin: 0px 0px 10px;
+}
+
+#task_form {
+    width: 100%;
+}
+
+#taskTitle {
+    width: 75%;
+}
+
+#task
+
+#task_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container div {
+    width: 100%;
+}
+
+label {
+    margin-left: 5px;
+}
+
+:checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }
